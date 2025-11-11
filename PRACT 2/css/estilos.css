@@ -1,0 +1,39 @@
+body{
+    background-image: url("/images/fondo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: "Elms Sans", sans-serif;
+}
+h1{
+    background-color: silver;
+    color: aliceblue;
+    text-shadow: 2px 2px gray;
+    border-left: 10px;
+    border-color: brown;
+    border-left-style: solid;
+}
+img{
+    width: 450px;
+    height: auto;
+    border-radius: 5%;
+    border: 3px solid black;
+    box-shadow: 5px 5px 10px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 5px ;
+    border-radius: 5px;
+    font-family: "Elms Sans", sans-serif;
+}
+li a{
+    color: black;
+}
+li a:hover{
+    color: indigo;
+}
