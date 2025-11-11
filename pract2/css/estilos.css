@@ -2,6 +2,7 @@ body{
     background-image: url("/images/fondo.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     text-align: center;
     font-family: "Elms Sans", sans-serif;
 }
