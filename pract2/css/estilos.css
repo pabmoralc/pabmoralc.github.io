@@ -13,6 +13,37 @@ h1{
     border-left: 10px;
     border-color: brown;
     border-left-style: solid;
+    border-bottom: 5px solid black;
+}
+p{
+    margin: 1px;
+    text-indent: 40px;
+    text-align: left;
+    width: 90%;
+    padding: 10px;
+    
+}
+#p0{
+    background-image: url("../images/fondop0.webp");
+    background-repeat: repeat;
+    border: 3px dashed black;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 5px 5px 10px;
+}
+#p1{
+    background-color: gray;
+    border: 3px dashed black;
+    box-shadow: 5px 5px 10px;
+}
+#p2{
+    background-color: gray;
+    border: 3px dashed black;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 5px 5px 10px;
+}
+h3{
+    background-color: blue;
+    border-top: 5px solid black;
 }
 img{
     width: 450px;
@@ -20,21 +51,24 @@ img{
     border-radius: 5%;
     border: 3px solid black;
     box-shadow: 5px 5px 10px;
+    margin-bottom: 10px;
 }
 ul{
     list-style-type: none;
 }
+
 li{
     display: inline;
-    border: 1px solid black;
-    padding: 8px;
+    border-left: 5px solid red;
+    padding-left: 10px;
     margin: 5px ;
-    border-radius: 5px;
     font-family: "Elms Sans", sans-serif;
 }
 li a{
     color: black;
 }
 li a:hover{
-    color: indigo;
+    text-decoration: underline;
+    text-decoration-color: red;
+    
 }
