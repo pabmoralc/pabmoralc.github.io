@@ -21,7 +21,8 @@ p{
     text-align: left;
     width: 90%;
     padding: 10px;
-    
+    margin-left: 5%;
+    margin-right: 5%;
 }
 #p0{
     background-image: url("../images/fondop0.webp");
@@ -53,6 +54,11 @@ img{
     box-shadow: 5px 5px 10px;
     margin-bottom: 10px;
 }
+.portada{
+    display: block;
+    margin-left: auto;
+    margin-right: 60px; 
+}
 ul{
     list-style-type: none;
 }
@@ -71,4 +77,14 @@ li a:hover{
     text-decoration: underline;
     text-decoration-color: red;
     
+}
+@media all and (max-width: 600px){
+    .portada{
+        border: 2px solid red;
+        width: 90%;
+        display: block;
+        text-align: center;
+        margin-right: 5%
+            
+    }
 }
