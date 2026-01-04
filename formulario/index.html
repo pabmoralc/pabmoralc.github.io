@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FROMULARIO</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form id="form1" name="form1" action="http://ncoge.com/phps/formulario.php" method="post"></form>
+    <table width="100%">
+        <tr valign="top">
+            <td>
+            <fieldset>
+                <legend><strong>Datos personales</strong></legend>
+                Nombre:<br/>
+                <input type="text" name="nombre" value="Escribe tu nombre.."><br/>
+                Apellidos:<br/>
+                <input type="text" name="apellidos" value=""><br/>
+                Correo electrónico:<br/>
+                <input type="text" name="correo" value=""><br/>
+                Hobbies:<br/>
+                <textarea name="hobbies" cols="25" rows="3" id="hobbies"></textarea>
+            </fieldset>
+            </td>
+            
+            <td>
+                <fieldset>
+                    <legend><strong>Idiomas</strong></legend>
+                    Púntua tu nivel de idiomas de 1 a 5:</br>
+                </br>
+                    <strong>Inglés:</strong>
+                    1 <input type="radio" name="ingles" value="1"/>
+                    2 <input type="radio" name="ingles" value="1"/>
+                    3 <input type="radio" name="ingles" value="1"/>
+                    4 <input type="radio" name="ingles" value="1"/>
+                    5 <input type="radio" name="ingles" value="1" />
+                    </br>
+                    </br>
+                    <strong>Alemán:</strong>
+                    1 <input type="radio" name="ingles" value="1"/>
+                    2 <input type="radio" name="ingles" value="1"/>
+                    3 <input type="radio" name="ingles" value="1"/>
+                    4 <input type="radio" name="ingles" value="1"/>
+                    5 <input type="radio" name="ingles" value="1" />
+                    </br></br>
+                    <strong>Francés:</strong>
+                    1 <input type="radio" name="ingles" value="1"/>
+                    2 <input type="radio" name="ingles" value="1"/>
+                    3 <input type="radio" name="ingles" value="1"/>
+                    4 <input type="radio" name="ingles" value="1"/>
+                    5 <input type="radio" name="ingles" value="1" />
+                </fieldset>
+                <fieldset>
+                    <legend><strong>Domino estos programas</strong></legend>
+                    <table width="100%" align="center" >
+                        <tr align="center">
+                            <td>Writter: <input type="checkbox"> </td>
+                            <td>Calc: <input type="checkbox"></td>
+                        </tr>
+                        <tr align="center">
+                            <td>Base: <input type="checkbox"></td>
+                            <td>Impress: <input type="checkbox"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend><strong>Mi sistema operativo</strong></legend>
+                    <select name="SO" size="1">
+                        <option value="Windows">Windows</option>
+                        <option value="Mac">Mac</option>
+                        <option value="Linux">Linux</option>    
+                    </select> 
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input type="reset" value="Reiniciar">
+                <input type="image" src="" >
+            </td>
+        </tr>
+    </table> 
+</body>
+</html>
