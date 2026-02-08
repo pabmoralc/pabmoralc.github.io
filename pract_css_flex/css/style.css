@@ -1,0 +1,259 @@
+body {
+    margin: 0px;
+    background-color: gray;
+}
+
+.menu {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(8, 48, 8, 0.868);
+}
+
+.menu li:first-child a {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.menu li:last-child a {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+header p {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+.imgName {}
+
+.name {}
+
+#textCookie {
+    text-align: center;
+}
+
+#cookieEU {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+
+    width: 60%;
+    padding: 10px;
+    border: 2px solid red;
+    background-color: white;
+    box-shadow: 2px 2px 50px black;
+}
+
+.button {
+    background-color: #097054;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.submenu ul {
+    list-style: none;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.submenu ul li a img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+
+footer {
+    background-color: darkgreen;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* DE TABLET PARA ABAJO */
+@media (max-width: 768px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-image: url(../images/fondo.jpeg);
+        background-attachment: fixed;
+        color: white;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 85px 24px;
+    }
+
+    .menu ul {
+        display: flex;
+        align-items: center;
+        padding: 0px 16px;
+        list-style: none;
+        justify-content: center;
+        margin: 10px;
+        font-size: 13px;
+    }
+
+    .menu li a {
+        padding: 8px 16px;
+        border: 2px solid #fff;
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        text-align: center;
+        align-content: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .submenu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 32px 0px;
+    }
+
+    .uno {
+        background-color: lightslategray;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: left;
+        display: flex;
+        margin-bottom: 10px;
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .dos {
+        background-color: lightslategray;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: left;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .uno img,
+    .dos img {
+        border: 5px solid white;
+        padding: 4px;
+        border-radius: 6px;
+    }
+
+
+}
+
+/* PARA ORDENADOR */
+@media(min-width: 768px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-image: url(../images/fondo.jpeg);
+        background-attachment: fixed;
+        color: white;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 85px;
+    }
+
+    .menu li a {
+        padding: 8px 20px;
+        border: 2px solid #fff;
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        text-align: center;
+        align-content: center;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .main {
+        width: 85%;
+        padding: 15px;
+    }
+
+    .submenu {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        padding-top: 32px;
+    }
+
+    .uno {
+        background-color: lightslategray;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: left;
+        display: flex;
+        margin-bottom: 10px;
+        gap: 20px;
+        flex-direction: row-reverse;
+    }
+
+    .dos {
+        background-color: lightslategray;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: left;
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+    }
+
+    .uno img,
+    .dos img {
+        border: 5px solid white;
+        padding: 4px;
+        border-radius: 6px;
+    }
+
+    .menu ul {
+        display: flex;
+        align-items: center;
+        padding: 0px 16px;
+        list-style: none;
+        justify-content: center;
+        margin: 10px;
+    }
+
+}

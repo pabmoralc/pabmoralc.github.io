@@ -1,7 +1,7 @@
 body{
     background-image: url("../images/fondo.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+    background-attachment: fixed; /*no se mueve al scrolñar*/
+    background-size: cover; /*cubre toda el conetenedor*/
     background-position: center;
     text-align: center;
     font-family: "Elms Sans", sans-serif;
@@ -17,10 +17,10 @@ h1{
 }
 p{
     margin: 1px;
-    text-indent: 40px;
+    text-indent: 40px; /*sangría solo a la primera línea*/
     text-align: left;
     width: 90%;
-    padding: 10px;
+    padding: 10px;/* crea espacio entrr el contenido de un elemento y su borde*/
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -78,7 +78,7 @@ li a:hover{
     text-decoration-color: red;
     
 }
-@media all and (max-width: 600px){
+@media all and (max-width: 600px){ 
     .portada{
         border: 2px solid red;
         width: 90%;
